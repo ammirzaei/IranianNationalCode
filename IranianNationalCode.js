@@ -14,7 +14,7 @@ const builded = () => {
   let code = res <= 2 ? codeB + res : codeB + (11 - res);
   document.getElementById("parbuild").innerHTML = checked(code)
     ? code
-    : "دوباره تلاش کن";
+    : "Try Again";
 };
 const Getres = (code) => {
   let sum = 0;
